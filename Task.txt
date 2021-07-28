@@ -1,0 +1,15 @@
+integrate Build
+>> call jenkins for the application job
+download artifacts from jenkins
+integrate the trigger from bitbucket when push happens
+Jenkins has to trigger the build flow after the push event after merge
+based on artifact, checksum with version, groupid, artifact and put it in release pipeline env.
+download artifact from nexus
+checksum from nexus is matching checksum from jenkins.
+1.6
+1.7
+
+
+gcloud compute instance-groups list-instances
+
+10.128.0.2
